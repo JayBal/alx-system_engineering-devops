@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -i s/c//gi
+tr -d 'C' | tr -d 'c'
